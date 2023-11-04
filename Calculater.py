@@ -26,7 +26,7 @@ def calculator():
    continue_flag=True
    while continue_flag:
            
-         op_Symbol=input("pick up symbol for operations :-")    
+         op_Symbol=input("pick up symbol for operations :-  ")    
          
          number2=float(input("Enter second number"))
          calculater_function=operation_dict[op_Symbol]
