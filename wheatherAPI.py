@@ -1,6 +1,6 @@
 import requests, json
 import datetime
-api_key = "516e5492d88e639900a36168fff7d4e6"
+api_key = "Enter Api Key"
 base_url = "https://api.openweathermap.org/data/2.5/weather?q="
 city = input("Enter city Name : ")
 complete_Url= base_url + city  + "&appid="  + api_key
