@@ -30,5 +30,3 @@ df=pandas.DataFrame({"Product Names":product,"Prices":price,"Description":decs,"
 # print(df)
 # df.to_csv("Product_Details.csv")
 df.to_excel("Product_Details.xlsx")
-
-
