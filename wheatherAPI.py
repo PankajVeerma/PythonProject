@@ -1,6 +1,6 @@
 import requests, json
 import datetime
-api_key = "Enter Api Key"
+api_key = ""
 base_url = "https://api.openweathermap.org/data/2.5/weather?q="
 city = input("Enter city Name : ")
 complete_Url= base_url + city  + "&appid="  + api_key
@@ -12,4 +12,4 @@ humidity = data_formate["main"]["humidity"]
 vist = data_formate["visibility"]
 dist = data_formate["weather"][0]["description"]
 
-print(f"The current weather Report the tempearture is {Celsius }celsius, humidity is {humidity} visibility is {vist}  and the  \n{dist} ")
+print(f"The current weather Report the tempearture is {Celsius }celsius, humidity is {humidity} visibility is {vist}  and the  {dist} ")  
